@@ -1,4 +1,4 @@
 #! /usr/bin/bash
 git push origin master
-vnaveensai
-vnsnaperu@12
+#vnaveensai
+#vnsnaperu@12
