@@ -8,3 +8,5 @@ read -a hello
 #readonly hello
 echo "The values by simple array for hello are ${hello[0]}, ${hello[1]}, ${hello[2]}"
 echo "The values by passing arguments are $0 $1 $2 $3"
+echo $@
+echo $#
