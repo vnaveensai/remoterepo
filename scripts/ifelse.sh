@@ -9,14 +9,14 @@ then
 
  if [ -x $filename ]
  then
-  echo "already permission given."
+  echo "File execution permission present."
   ls -lFh $filename
  else
   chmod u+x $filename
-  echo "given the execution permission."
+  echo "Given the file execution permission."
   ls -lFh $filename
  fi
 
 else
- echo "didn't found the $filename file"
+ echo "didn't found the '$filename' file"
 fi

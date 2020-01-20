@@ -23,7 +23,7 @@ esac
 
 if [ -x $0 ]
 then
- ls 
+ echo "File execution permission already given."
 else
  chmod u+x $0
 fi
